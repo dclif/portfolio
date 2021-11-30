@@ -52,10 +52,10 @@
 }
 
 .about {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   max-width: 800px;
   font-weight: 400;
-  
+  text-align: center;
 }
 
 .skills {
@@ -115,6 +115,7 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+  text-align:justify;
 }
 
 
@@ -122,6 +123,9 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .card {
+    width: 90%
   }
 }
 
