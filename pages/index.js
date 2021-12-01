@@ -300,17 +300,27 @@ export default function Home() {
 
           
         </div>
-        <a href="mailto:danielcliftonpro@gmail.com?subject=JOB OFFER!&body=Hi Daniel, We would really like to hire you." target="_blank" rel="noreferrer">
+        
         <div className={styles.contact}>
-
+        <a href="mailto:danielcliftonpro@gmail.com?subject=JOB OFFER!&body=Hi Daniel, We would really like to hire you." target="_blank" rel="noreferrer">
         <button className={styles.contactMe}>
         <span className={styles.circle}>
           <span className={styles.icon + " " + styles.arrow}></span>
         </span>
         <span className={styles.ButtonText}>Contact me</span>
       </button>
-      </div>
       </a>
+      <a href="https://docs.google.com/document/d/18dqbcIuNVplVWiJBnLEcjXgsw35_UBWn/edit?usp=sharing&ouid=101654541440606303053&rtpof=true&sd=true" target="_blank" rel="noreferrer">
+        <button className={styles.contactMe}>
+        <span className={styles.circle}>
+          <span className={styles.icon + " " + styles.arrow}></span>
+        </span>
+        <span className={styles.ButtonText}>View CV</span>
+      </button>
+      </a>
+      </div>
+      
+      
 
       </main>
 

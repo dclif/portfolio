@@ -127,11 +127,25 @@
   .card {
     width: 90%
   }
+  .contact{
+    flex-direction: column;
+    height: 15rem;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .main{
+    padding-bottom: 1rem;
+  }
 }
 
 .contact{
   margin-top: 3rem;
   padding:1rem;
+  display: flex;
+  justify-content:space-evenly;
+  width: 90%;
 }
 
 .contactMe {
